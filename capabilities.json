@@ -51,6 +51,13 @@
             "bool": true
           }
         },
+        "showPercentageLabel": {
+          "displayName": "Show percentage label",
+          "displayNameKey": "Visual_ShowPercentageLabel",
+          "type": {
+              "bool": true
+          }
+        },
         "showDataLabels": {
           "displayName": "Show data labels",
           "displayNameKey": "Visual_ShowDataLabels",
