@@ -129,7 +129,7 @@ export class Sunburst implements IVisual {
     private toggleLabels(isShown: boolean = true) {
         this.percentageLabel.classed(
             this.appCssConstants.labelVisible.className,
-            isShown
+            isShown && this.settings.group.showPercentageLabel
         );
 
         this.selectedCategoryLabel.classed(
